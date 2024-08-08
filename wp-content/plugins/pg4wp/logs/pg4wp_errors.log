@@ -1,0 +1,2537 @@
+[1723133136.9485] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1723133136.9501] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1723133136.9518] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.2086] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.6322] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.6335] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.6346] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133137.636] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.6371] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.64] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133137.6426] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.6437] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1723133137.6447] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1723133137.6507] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133137.669] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.6702] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133137.6716] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6726] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133137.6736] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6746] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6756] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133137.6766] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1723133137.6784] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6797] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6808] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6818] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.683] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133137.6846] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.6914] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.6931] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133137.6952] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133137.6962] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133137.6973] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133137.6985] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133137.6999] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7012] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7022] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7033] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7045] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7055] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133137.7067] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.7451] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1723133137.7488] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133137.7499] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133137.7511] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133137.7519] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133137.7529] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133137.7541] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133137.7555] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.7565] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.7575] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.7669] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133137.7682] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133137.8419] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1723133137.8429] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133137.9156] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133138.0154] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133138.1455] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1723133138.1467] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1723133138.1478] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133138.3452] Error running :
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+---- converted to ----
+SELECT option_name, option_value FROM wp_options WHERE autoload IN ( 'yes', 'on', 'auto-on', 'auto' )
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options WHERE autol...
+                                              ^
+---------------------
+[1723133138.3464] Error running :
+SELECT option_name, option_value FROM wp_options
+---- converted to ----
+SELECT option_name, option_value FROM wp_options
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_name, option_value FROM wp_options
+                                              ^
+---------------------
+[1723133138.3475] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133138.6036] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.0757] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.0769] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.0778] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.0789] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.0797] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.0824] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133139.0848] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.0857] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1723133139.0866] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1723133139.0931] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133139.1086] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1098] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133139.1112] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1121] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133139.1132] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1141] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1151] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133139.116] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1723133139.1178] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1193] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1204] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1217] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1228] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133139.124] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.1307] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.1323] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133139.1346] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133139.1361] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133139.1372] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133139.1381] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133139.1392] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1404] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1414] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1424] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1435] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1445] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1458] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1766] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133139.1778] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133139.1825] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1844] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.186] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.1871] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.1884] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1897] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1914] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1929] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1929] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1723133139.1943] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1955] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1967] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.1969] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.1981] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133139.1984] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.1996] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133139.2] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.2011] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133139.2015] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.2023] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.2027] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133139.2034] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.2044] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+---------
+[1723133139.206] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.207] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133139.207] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.2081] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133139.2081] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.2091] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.2103] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133139.2128] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133139.2139] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'gmt...
+                                 ^
+---------------------
+[1723133139.2149] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133139.2161] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133139.2173] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133139.2194] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.221] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133139.2941] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1723133139.2951] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133139.3615] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133139.427] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133140.3861] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133140.3875] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133140.3918] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.3932] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.3947] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133140.3962] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133140.3983] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4025] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4041] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4056] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4072] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4084] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4097] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4114] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133140.4128] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133140.4141] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133140.4159] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.418] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4194] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4228] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133140.424] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133140.4253] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133140.4266] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133140.4278] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133140.4293] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'gmt...
+                                 ^
+---------------------
+[1723133140.4312] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133140.4325] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133140.434] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133155.4122] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.834] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.8352] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.8362] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133155.8372] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.8384] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.8415] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133155.8439] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133155.8449] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1723133155.8459] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1723133155.8532] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133155.8686] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.8698] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133155.8715] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8725] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133155.8735] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8745] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8756] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133155.877] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1723133155.8787] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.88] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.881] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8821] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8834] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133155.8845] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133155.8923] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133155.8938] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133155.896] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133155.8972] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133155.8992] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133155.9005] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133155.9019] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9034] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9047] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9057] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9069] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9079] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133155.9091] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.951] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1723133155.9543] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133155.9554] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133155.9567] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133155.9577] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133155.9588] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133155.9602] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133155.9617] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133155.9629] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133155.9642] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133155.9728] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133155.9741] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133156.0528] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1723133156.0537] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133156.1213] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133156.161] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133157.2829] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133157.2844] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'upload_path' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'upload_path' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'upl...
+                                 ^
+---------------------
+[1723133157.2854] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'upload_url_path' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'upload_url_path' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'upl...
+                                 ^
+---------------------
+[1723133157.2863] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'uploads_use_yearmonth_folders' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'uploads_use_yearmonth_folders' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'upl...
+                                 ^
+---------------------
+[1723133157.2883] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133157.2893] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133160.1241] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133160.1257] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133160.1885] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.1895] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.1906] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133160.1916] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133160.1927] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.1939] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.1951] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.1966] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.198] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.199] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2001] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2013] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133160.2024] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133160.2032] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133160.2041] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.205] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2059] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2081] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133160.2091] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133160.2101] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2111] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133160.2121] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'timezone_string' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133160.2134] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'gmt_offset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'gmt...
+                                 ^
+---------------------
+[1723133160.2158] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'start_of_week' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sta...
+                                 ^
+---------------------
+[1723133160.217] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'time_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tim...
+                                 ^
+---------------------
+[1723133160.218] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'date_format' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'dat...
+                                 ^
+---------------------
+[1723133160.2196] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133160.2212] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133189.835] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.3094] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.3106] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.3115] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133190.3125] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.3134] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.316] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133190.3185] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.3195] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'act...
+                                 ^
+---------------------
+[1723133190.3204] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hac...
+                                 ^
+---------------------
+[1723133190.3273] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133190.3435] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3447] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_user_roles' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133190.3461] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3471] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133190.3481] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3491] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3499] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133190.3525] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'WPL...
+                                 ^
+---------------------
+[1723133190.3624] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3639] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3652] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3663] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3674] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tem...
+                                 ^
+---------------------
+[1723133190.3684] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.3749] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.3768] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'wp_attachment_pages_enabled' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'wp_...
+                                 ^
+---------------------
+[1723133190.3792] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133190.3803] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cat...
+                                 ^
+---------------------
+[1723133190.3816] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133190.3829] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'tag...
+                                 ^
+---------------------
+[1723133190.3842] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.386] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3872] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3885] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3898] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3911] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'per...
+                                 ^
+---------------------
+[1723133190.3925] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.4341] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'use...
+                                 ^
+---------------------
+[1723133190.4378] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133190.4389] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133190.4402] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133190.4412] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'hom...
+                                 ^
+---------------------
+[1723133190.4422] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_public' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133190.4437] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'blo...
+                                 ^
+---------------------
+[1723133190.4449] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.4458] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.4468] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.4558] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.4572] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sty...
+                                 ^
+---------------------
+[1723133190.5378] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'the...
+                                 ^
+---------------------
+[1723133190.5388] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'cro...
+                                 ^
+---------------------
+[1723133190.6066] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'siteurl'
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'sit...
+                                 ^
+---------------------
+[1723133190.6468] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
+[1723133190.6479] Error running :
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM wp_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  no existe la relación «wp_options»
+LINE 1: SELECT option_value FROM wp_options WHERE option_name = 'htm...
+                                 ^
+---------------------
