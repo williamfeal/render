@@ -68,3 +68,8 @@ if ( !defined('ABSPATH') )
 
 /** Configura las variables de WordPress y archivos incluidos. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
