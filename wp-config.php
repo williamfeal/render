@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'render' );
+define( 'DB_NAME', 'astra_postgresql' );
 
 /** Database username */
-define( 'DB_USER', 'render' );
+define( 'DB_USER', 'astra_postgresql_user' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'render' );
+define( 'DB_PASSWORD', 'AkewAvPmleeIKvhTkzRTHwIjgMHhNejW' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'dpg-cqq9543v2p9s73b4001g-a.oregon-postgres.render.com' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -37,6 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+/** Database type */
 define('DB_TYPE', 'pgsql');
 
 /**#@+
